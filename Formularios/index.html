@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario base | dropbox</title>
+  </head>
+
+  <body>
+    <form class="formulario">
+      <label for="nombre">Nombre:</label><br />
+      <input type="text" name="nombre" id="nombre" /><br />
+
+      <label for="apellido">Apellido:</label><br />
+      <input type="text" name="apellido" id="apellido" /><br />
+
+      <label for="clave">Clave de acceso:</label><br />
+      <input type="password" name="clave" id="clave" /><br />
+
+      <label for="genero">Genero:</label><br />
+      <input type="radio" name="genero2" value="M" checked="checked" />
+      <label for="M">Masculino</label><br />
+      <input type="radio" name="genero" value="F" />
+      <label for="F">Femenino</label><br />
+      <input type="radio" name="genero" value="X" />
+      <label for="X">Otro</label><br />
+      <hr />
+
+      <label for="idiomas">Idiomas:</label><br />
+      <input type="checkbox" name="ingles" value="en" />
+      <label for="en">Inglés</label><br />
+      <input type="checkbox" name="espanol" value="es" checked="checked" />
+      <label for="es">Español</label><br />
+      <input type="checkbox" name="frances" value="fr" />
+      <label for="fr">Francés</label><br />
+      <hr />
+
+      <label>Automovil:</label><br />
+      <select id="auto" name="auto">
+        <optgroup label="Suizos">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="Alemanes">
+          <option value="mercedes" selected>Mercedes Benz</option>
+          <option value="bmw">BMW</option>
+        </optgroup>
+        <optgroup label="Franceses">
+          <option value="renault">Renault</option>
+          <option value="citroen">Citroen</option>
+        </optgroup>
+      </select>
+      <hr />
+
+      <label>Sabores de helado:</label><br />
+      <select id="helado" name="helado" multiple size="2">
+        <option value="pistache">Pistache</option>
+        <option value="fresa">Fresa</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vainilla">Vainilla</option>
+        <option value="chicle">Chicle</option>
+      </select>
+
+      <hr />
+      <br /><br /><br /><br /><br />
+    </form>
+  </body>
+</html>
